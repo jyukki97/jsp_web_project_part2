@@ -13,14 +13,18 @@
             <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Gno</th>
                 <th scope="col">Title</th>
+                <th scope="col">Writer</th>
                 <th scope="col">Regdate</th>
             </tr>
             </thead>
             <tbody>
             <tr th:each="dto: ${result.dtoList}">
-                <th scope="row">[[${dto.gno}]]</th>
+                <th scope="row">
+                    <a th:href="@{/guestbook/read(gno=${dto.gno}, page=${result.page})}">
+                        [[${dto.gno}]]
+                    </a>
+                </th>
                 <td>[[${dto.title}]]</td>
                 <td>[[${dto.writer}]]</td>
                 <td>[[${#temporals.format(dto.regDate, 'yyyy/MM/dd')}]]</td>
