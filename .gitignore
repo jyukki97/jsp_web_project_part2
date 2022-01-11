@@ -1,0 +1,15 @@
+jsp_web_project_part2/
+build/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Mac
+.DS_Store

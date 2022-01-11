@@ -90,7 +90,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="tasks.servers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="tasks.open.task.update.state.enabled" value="false" />
   </component>
   <component name="RunManager" selected="Application.GuestbookApplication">
@@ -223,6 +223,7 @@
       <branch name="main" repository="$PROJECT_DIR$" original="true" />
       <branch name="jsp_web_project_part2-1" repository="$PROJECT_DIR$" />
       <changelist id="97758e8b-4537-4b87-a351-9e57b8e7b379" name="jsp_web_project_part2-2 [Entity] BaseEntity class" comment="jsp_web_project_part2-2 [Entity] BaseEntity class" />
+      <option name="closed" value="true" />
       <created>1641878237000</created>
       <option name="issue" value="true" />
       <url>https://github.com/jyukki97/jsp_web_project_part2/issues/1</url>
@@ -230,7 +231,7 @@
       <option name="presentableId" value="jsp_web_project_part2-1" />
       <option name="project" value="jsp_web_project_part2" />
       <option name="type" value="BUG" />
-      <updated>1641878719083</updated>
+      <updated>1641879412000</updated>
     </task>
     <task id="jsp_web_project_part2-2" summary="[Entity] BaseEntity class ">
       <branch name="main" repository="$PROJECT_DIR$" original="true" />
