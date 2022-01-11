@@ -11,6 +11,11 @@
         <link rel="icon" type="image/x-icon" th:href="@{/assets/favicon.ico}" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link th:href="@{/css/styles.css}" rel="stylesheet" />
+
+        <!-- Bootstrap core JavaScript -->
+        <script th:src="@{/vendor/jquery/jquery.min.js}"></script>
+        <script th:src="@{/vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+
     </head>
     <body>
         <div class="d-flex" id="wrapper">
@@ -56,9 +61,7 @@
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script th:src="@{/js/script.js}"></script>
-        <!-- Core theme JS-->
+
     </body>
     </th:block>
 </html>
