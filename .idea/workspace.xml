@@ -195,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuestbookApplication" />
-        <item itemvalue="Gradle.GuestbookServiceTests.testList" />
         <item itemvalue="Gradle.GuestbookServiceTests.testRegister" />
+        <item itemvalue="Gradle.GuestbookServiceTests.testList" />
         <item itemvalue="Gradle.GuestbookRepositoryTests.testQuery2" />
         <item itemvalue="Gradle.GuestbookRepositoryTests.testQuery1" />
+        <item itemvalue="Application.GuestbookApplication" />
       </list>
     </recent_temporary>
   </component>
