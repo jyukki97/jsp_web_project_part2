@@ -36,6 +36,7 @@ public class PageResultDTO<DTO, EN> {
         dtoList = result.stream().map(fn).collect(Collectors.toList());
 
         totalPage = result.getTotalPages();
+
         makePageList(result.getPageable());
     }
 
